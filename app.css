@@ -153,6 +153,21 @@ hr.style-quarter{
     color: rgb(255, 136, 0);
 }
 
+.note{
+    color: rgb(35, 5, 204);
+    font-size: 1.25rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.linksToSamePage{
+    transition: 500ms;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 hr.style {
     width: 90%;
     border: 0;
@@ -182,4 +197,10 @@ hr.style-half {
 }
 .otherContent{
     font-size: 1.15rem;
+}
+
+.contact-us-section{
+   background-color: rgb(216, 216, 216);
+   /* width: 50%; */
+   border-radius: 10px;
 }
