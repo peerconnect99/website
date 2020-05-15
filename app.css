@@ -15,6 +15,9 @@
 
 .btn{
     outline: none;
+    height: 3.5rem;
+    width: 12rem;
+
 }
 
 .btn-light{
@@ -32,10 +35,10 @@
 #mainLandingPageImage{
     display: block;
     margin: auto;
-    margin-top:8rem;
-    width: 75%;
+    margin-top:5rem;
+    /* width: 75%; */
     /* padding: auto 200px; */
-    height: auto;
+    /* height: auto; */
 }
 
 #wholeBody{
