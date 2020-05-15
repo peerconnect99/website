@@ -13,7 +13,7 @@
     background-color:rgb(215, 246, 255) ;
 }
 
-.btn{
+/* .btn{
     outline: none;
     height: 3.5rem;
     width: 12rem;
@@ -25,11 +25,40 @@
     border-radius: 80px;
     color: whitesmoke;
     outline:none;
+} */
+
+.btn{
+    height : 3.5rem;
+    width : 12rem;
+    outline: none;
+    margin: 0 auto;
+    display: inline;
+    /* font-size: 16px; */
+    background: rgb(250, 142, 20);
+    /* padding: 20px 60px; */
+    color:white;
+    border-radius: 30px;
+    box-shadow: 0 7px rgb(187, 121, 0);
+    position: relative;
 }
 
 .btn:hover{
-    background-color: rgb(255, 136, 0);
-    transition: 500ms;
+    text-decoration: none;
+    color: whitesmoke;
+    top: 2px;
+    box-shadow: 0 5px rgb(187, 121, 0);
+}
+
+.btn:active{
+    outline: none;
+    top:4px;
+    box-shadow: 0 3px rgb(187, 121, 0);
+}
+
+.buttonLink:hover{
+    outline: none;
+    text-decoration: none;
+    color: white;
 }
 
 #mainLandingPageImage{
@@ -61,6 +90,10 @@
     color:rgb(2, 13, 37);
     font-weight: 600;
     transition: 300ms;
+}
+
+#hamburgerBtn{
+    outline: none;
 }
 
 .navbar-brand{
