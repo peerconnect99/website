@@ -1,15 +1,6 @@
-console.log("connected");
-if(jQuery){
-    console.log("jquery connected");
-}
-$("#mentorsToggler").click(function () {
-    console.log("clicked");
-    $("#mentorsContent").slideToggle("slow", function () {
-        // Animation complete.
-        console.log("completed");
+$(function () {
+    $(document).scroll(function () {
+        var $nav = $("#mainNavbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
 });
-
-$("#foundersToggler").click(function () {
-    $("#foundersContent").slideToggle("slow");
-})
