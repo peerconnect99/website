@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 #brandLogo{
     height: 30px;
     width: 100px;
@@ -92,6 +99,8 @@
 .navbar-brand:hover{
     color:rgb(2, 13, 37);
     font-weight: 600;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
     transition: 300ms;
 }
 
@@ -181,6 +190,8 @@
     /* color:white; */
     border-radius: 50%;
     font-weight: 600;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
     transition: 300ms;
 }
 
@@ -204,6 +215,8 @@ body{
 .scrolled{
     background-color: white;
     color:#cf670c ;
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
 }
 
@@ -245,6 +258,8 @@ hr.style-quarter{
     width: 25%;
     border: 0;
     height: 1px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 136, 0, 0)), color-stop(rgba(255, 136, 0, 0.75)), to(rgba(255, 136, 0, 0)));
+    background-image: -o-linear-gradient(left, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
     background-image: linear-gradient(to right, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
 }
 
@@ -265,6 +280,8 @@ hr.style-quarter{
 }
 
 .linksToSamePage{
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
     transition: 500ms;
 }
 
@@ -276,12 +293,16 @@ hr.style {
     width: 90%;
     border: 0;
     height: 1px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 136, 0, 0)), color-stop(rgba(255, 136, 0, 0.75)), to(rgba(255, 136, 0, 0)));
+    background-image: -o-linear-gradient(left, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
     background-image: linear-gradient(to right, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
 }
 hr.style-half {
     width: 50%;
     border: 0;
     height: 1px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 136, 0, 0)), color-stop(rgba(255, 136, 0, 0.75)), to(rgba(255, 136, 0, 0)));
+    background-image: -o-linear-gradient(left, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
     background-image: linear-gradient(to right, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
 }
 
@@ -309,4 +330,8 @@ hr.style-half {
    background-color: rgb(216, 216, 216);
    /* width: 50%; */
    border-radius: 10px;
+}
+
+.contactLinks{
+    color: black;
 }
