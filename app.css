@@ -108,12 +108,58 @@
     margin-right: 5px;
 }
 
-.list{
-    padding-left:5px;
+.card-body{
+    margin-top: 2rem;
+    padding:0.5rem;
+    background: rgba(250, 142, 20,0.9);
+    border-radius: 30px;
 }
+
+/* .list{
+    text-align: center;
+} */
 
 #mainNavbar{
     letter-spacing: 2px;
+}
+
+
+.support-icons{
+    margin-left:0.5rem;
+    width:60px
+}
+
+#google-meet-icon{
+    margin-left:1rem;
+    width:45px;
+}
+
+.fa-phone-alt{
+    font-size: 2rem;
+    color: blue;
+    margin-left: 1.5rem;
+}
+
+.model{
+    line-height: 2.5rem;
+}
+
+.fa-whatsapp{
+    font-size: 2rem;
+    color:rgb(21, 214, 21);
+}
+
+.support{
+    font-size: 1.5rem;
+    vertical-align: center;
+    color: black;
+}
+
+.quote{
+    background-color: rgba(255, 136, 20,0.9);
+    border-radius: 100px;
+    color: whitesmoke;
+    font-style: oblique;
 }
 
 .nav-link:hover{
@@ -154,7 +200,7 @@ body{
 
 .card{
     background-color: whitesmoke;
-    border: none;
+    border:none;
     margin: auto;
 }
 
@@ -194,10 +240,15 @@ hr.style-quarter{
 }
 
 .note{
-    color:rgb(250, 142, 20);
-    font-size: 1.25rem;
+    color:whitesmoke;
+    font-size: 1.75rem;
+    font-style: italic;
     text-align: center;
     letter-spacing: 1px;
+}
+
+.by{
+    color: whitesmoke;
 }
 
 .linksToSamePage{
@@ -232,10 +283,12 @@ hr.style-half {
 }
 
 .name{
+    margin: 0 auto;
     font-weight: 800;
     font-size: 1.25rem;
 }
 .otherContent{
+    margin: 0 auto;
     font-size: 1.15rem;
 }
 
