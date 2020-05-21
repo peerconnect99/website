@@ -2,6 +2,13 @@
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
 * Autoprefixer: v9.7.6
+* Browsers: last 20 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
 
@@ -44,7 +51,8 @@
     background: rgb(250, 142, 20);
     /* padding: 20px 60px; */
     color:white;
-    border-radius: 30px;
+    -webkit-border-radius: 30px;
+            border-radius: 30px;
     /* box-shadow: 0 7px rgb(187, 121, 0); */
     /* position: relative; */
 }
@@ -121,11 +129,13 @@
     margin-top: 2rem;
     padding:0.5rem;
     background: rgba(250, 142, 20,0.9);
-    border-radius: 30px;
+    -webkit-border-radius: 30px;
+            border-radius: 30px;
 }
 
 .illustration{
-    border-radius: 30px;
+    -webkit-border-radius: 30px;
+            border-radius: 30px;
 }
 
 /* .list{
@@ -179,7 +189,8 @@
 
 .quote{
     background-color: rgba(255, 136, 20,0.9);
-    border-radius: 100px;
+    -webkit-border-radius: 100px;
+            border-radius: 100px;
     color: white;
     font-style: oblique;
 }
@@ -188,7 +199,8 @@
     /* background-color:white; */
     color: rgb(2, 13, 37);
     /* color:white; */
-    border-radius: 50%;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
     font-weight: 600;
     -webkit-transition: 300ms;
     -o-transition: 300ms;
@@ -258,8 +270,8 @@ hr.style-quarter{
     width: 25%;
     border: 0;
     height: 1px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 136, 0, 0)), color-stop(rgba(255, 136, 0, 0.75)), to(rgba(255, 136, 0, 0)));
     background-image: -o-linear-gradient(left, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 136, 0, 0)), color-stop(rgba(255, 136, 0, 0.75)), to(rgba(255, 136, 0, 0)));
     background-image: linear-gradient(to right, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
 }
 
@@ -293,16 +305,16 @@ hr.style {
     width: 90%;
     border: 0;
     height: 1px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 136, 0, 0)), color-stop(rgba(255, 136, 0, 0.75)), to(rgba(255, 136, 0, 0)));
     background-image: -o-linear-gradient(left, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 136, 0, 0)), color-stop(rgba(255, 136, 0, 0.75)), to(rgba(255, 136, 0, 0)));
     background-image: linear-gradient(to right, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
 }
 hr.style-half {
     width: 50%;
     border: 0;
     height: 1px;
-    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 136, 0, 0)), color-stop(rgba(255, 136, 0, 0.75)), to(rgba(255, 136, 0, 0)));
     background-image: -o-linear-gradient(left, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 136, 0, 0)), color-stop(rgba(255, 136, 0, 0.75)), to(rgba(255, 136, 0, 0)));
     background-image: linear-gradient(to right, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
 }
 
@@ -311,7 +323,8 @@ hr.style-half {
 }
 
 .card-img-top{
-    border-radius: 30%;
+    -webkit-border-radius: 30%;
+            border-radius: 30%;
     width:200px;
     height:250px;
 }
@@ -329,7 +342,8 @@ hr.style-half {
 .contact-us-section{
    background-color: rgb(216, 216, 216);
    /* width: 50%; */
-   border-radius: 10px;
+   -webkit-border-radius: 10px;
+           border-radius: 10px;
 }
 
 .contactLinks{
