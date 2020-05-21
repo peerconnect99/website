@@ -23,7 +23,7 @@
 .btn-light{
     background-color: rgb(255, 136, 0);
     border-radius: 80px;
-    color: whitesmoke;
+    color: white;
     outline:none;
 } */
 
@@ -44,7 +44,7 @@
 
 .btn:hover{
     color:black;
-    background-color: whitesmoke;
+    background-color: white;
     /* top: 2px; */
     /* box-shadow: 0 5px rgb(187, 121, 0); */
 }
@@ -158,14 +158,14 @@
 .quote{
     background-color: rgba(255, 136, 20,0.9);
     border-radius: 100px;
-    color: whitesmoke;
+    color: white;
     font-style: oblique;
 }
 
 .nav-link:hover{
-    /* background-color:whitesmoke; */
+    /* background-color:white; */
     color: rgb(2, 13, 37);
-    /* color:whitesmoke; */
+    /* color:white; */
     border-radius: 50%;
     font-weight: 600;
     transition: 300ms;
@@ -183,13 +183,13 @@
 body{
     font-family: 'Nunito', sans-serif;
     /* margin:4rem; */
-    background-color: whitesmoke;
+    background-color: white;
     color:rgb(2, 13, 37) ;
-    /* background-color: whitesmoke; */
+    /* background-color: white; */
 }
 
 .scrolled{
-    background-color: whitesmoke;
+    background-color: white;
     color:#cf670c ;
     transition: 500ms;
 }
@@ -199,7 +199,7 @@ body{
 }
 
 .card{
-    background-color: whitesmoke;
+    background-color: white;
     border:none;
     margin: auto;
 }
@@ -240,7 +240,7 @@ hr.style-quarter{
 }
 
 .note{
-    color:whitesmoke;
+    color:white;
     font-size: 1.75rem;
     font-style: italic;
     text-align: center;
@@ -248,7 +248,7 @@ hr.style-quarter{
 }
 
 .by{
-    color: whitesmoke;
+    color: white;
 }
 
 .linksToSamePage{
