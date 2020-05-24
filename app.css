@@ -27,20 +27,6 @@
     background-color:rgb(215, 246, 255) ;
 }
 
-/* .btn{
-    outline: none;
-    height: 3.5rem;
-    width: 12rem;
-
-}
-
-.btn-light{
-    background-color: rgb(255, 136, 0);
-    border-radius: 80px;
-    color: white;
-    outline:none;
-} */
-
 .btn{
     height : 3.5rem;
     width : 12rem;
@@ -60,14 +46,10 @@
 .btn:hover{
     color:black;
     background-color: white;
-    /* top: 2px; */
-    /* box-shadow: 0 5px rgb(187, 121, 0); */
 }
 
 .btn:active{
     outline: none;
-    /* top:4px; */
-    /* box-shadow: 0 3px rgb(187, 121, 0); */
 }
 
 .buttonLink:hover{
@@ -138,10 +120,6 @@
             border-radius: 30px;
 }
 
-/* .list{
-    text-align: center;
-} */
-
 #mainNavbar{
     letter-spacing: 2px;
 }
@@ -193,6 +171,31 @@
             border-radius: 100px;
     color: white;
     font-style: oblique;
+}
+
+.pricing{
+    background-color:rgba(255, 136, 20,0.9);
+    color: white;
+    border-radius: 50px;
+}
+
+.validity{
+    font-weight: 200;
+    font-style: oblique;
+}
+
+.fa-rupee-sign{
+    color: white;
+}
+
+.strikedPrice{
+    color: rgb(221, 221, 221);
+    text-decoration: line-through;
+    display: inline;
+}
+
+.actualPrice{
+    display: inline;
 }
 
 .nav-link:hover{
@@ -316,6 +319,15 @@ hr.style-half {
     background-image: -o-linear-gradient(left, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 136, 0, 0)), color-stop(rgba(255, 136, 0, 0.75)), to(rgba(255, 136, 0, 0)));
     background-image: linear-gradient(to right, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
+}
+
+hr.pricingline {
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-image: -o-linear-gradient(left, rgba(238, 238, 238, 0), rgba(238, 238, 238, 0.75), rgba(238, 238, 238, 0));
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(238, 238, 238, 0)), color-stop(rgba(238, 238, 238, 0.75)), to(rgba(238, 238, 238, 0)));
+    background-image: linear-gradient(to right, rgba(238, 238, 238, 0), rgba(238, 238, 238, 0.75), rgba(238, 238, 238, 0));
 }
 
 .carousel-indicators li{
