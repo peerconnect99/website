@@ -344,11 +344,15 @@ hr.pricingline {
 .name{
     margin: 0 auto;
     font-weight: 800;
-    font-size: 1.25rem;
+    font-size: 1.20rem;
 }
 .otherContent{
     margin: 0 auto;
-    font-size: 1.15rem;
+    font-size: 1.25rem;
+}
+
+.mentorLinks{
+    font-size: 1.2rem;
 }
 
 .contact-us-section{
