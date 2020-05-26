@@ -1,0 +1,367 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 20 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+#brandLogo{
+    height: 30px;
+    width: 100px;
+}
+
+.navbar-colors{
+    background-color:rgb(215, 246, 255,0) ;
+    /* background-color: rgba(245, 245, 245,1); */
+}
+
+.dark-background{
+    color: rgb(223, 223, 217);
+    background-color:rgb(215, 246, 255) ;
+}
+
+.btn{
+    height : 3.5rem;
+    width : 12rem;
+    outline: none;
+    margin: 0 auto;
+    display: inline;
+    /* font-size: 16px; */
+    background: rgb(250, 142, 20);
+    /* padding: 20px 60px; */
+    color:white;
+    -webkit-border-radius: 30px;
+            border-radius: 30px;
+    /* box-shadow: 0 7px rgb(187, 121, 0); */
+    /* position: relative; */
+}
+
+.btn:hover{
+    color:black;
+    background-color: white;
+}
+
+.btn:active{
+    outline: none;
+}
+
+.buttonLink:hover{
+    outline: none;
+    text-decoration: none;
+    color: white;
+}
+
+#mainLandingPageImage{
+    display: block;
+    max-width: 250px;
+    margin: 1rem auto;
+    margin-top:5rem;
+}
+
+#wholeBody{
+    line-height: 1.95rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#mainLandingPage{
+    /* height: 830px; */
+    height: 100vh;
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/16/11/36/mentor-3610255_960_720.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    vertical-align: center;
+    /* width: 500px; */
+}
+
+.fas{
+    color: rgb(250, 142, 20);
+}
+
+.navbar-brand:hover{
+    color:rgb(2, 13, 37);
+    font-weight: 600;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+#hamburgerBtn{
+    outline: none;
+}
+
+.navbar-brand{
+    color:rgb(255, 136, 0);
+}
+
+.checkmark{
+    float: left;
+    margin-right: 5px;
+}
+
+.card-body{
+    margin-top: 2rem;
+    padding:0.5rem;
+    background: rgba(250, 142, 20,0.9);
+    -webkit-border-radius: 30px;
+            border-radius: 30px;
+}
+
+.illustration{
+    -webkit-border-radius: 30px;
+            border-radius: 30px;
+}
+
+#mainNavbar{
+    letter-spacing: 2px;
+}
+
+.container-fluid.illustrationBG{
+    height: 95vh;
+    background: url('../images/illustration.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    vertical-align: center;
+}
+
+
+.support-icons{
+    margin-left:0.5rem;
+    width:60px
+}
+
+#google-meet-icon{
+    margin-left:1rem;
+    width:45px;
+}
+
+.fa-phone-alt{
+    font-size: 2rem;
+    color: blue;
+    margin-left: 1.5rem;
+}
+
+.model{
+    line-height: 2.5rem;
+}
+
+.fa-whatsapp{
+    font-size: 2rem;
+    color:rgb(21, 214, 21);
+}
+
+.support{
+    font-size: 1.5rem;
+    vertical-align: center;
+    color: black;
+}
+
+.quote{
+    background-color: rgba(255, 136, 20,0.9);
+    -webkit-border-radius: 100px;
+            border-radius: 100px;
+    color: white;
+    font-style: oblique;
+}
+
+.pricing{
+    background-color:rgba(255, 136, 20,0.9);
+    color: white;
+    border-radius: 50px;
+}
+
+.validity{
+    font-weight: 200;
+    font-style: oblique;
+}
+
+.fa-rupee-sign{
+    color: white;
+}
+
+.strikedPrice{
+    color: rgb(221, 221, 221);
+    text-decoration: line-through;
+    display: inline;
+}
+
+.actualPrice{
+    display: inline;
+}
+
+.nav-link:hover{
+    /* background-color:white; */
+    color: rgb(2, 13, 37);
+    /* color:white; */
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    font-weight: 600;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+.nav-link{
+    color:rgb(255, 136, 0);
+    margin-right: 2.5rem;
+}
+
+.productBrand{
+    text-transform: uppercase;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    /* margin:4rem; */
+    background-color: white;
+    color:rgb(2, 13, 37) ;
+    /* background-color: white; */
+}
+
+.scrolled{
+    background-color: white;
+    color:#cf670c ;
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+}
+
+.container-fluid{
+    height: 100%;
+}
+
+.card{
+    background-color: white;
+    border:none;
+    margin: auto;
+}
+
+.contactIcons{
+    color: rgb(255, 136, 0);
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
+}
+
+.contactIcons:hover{
+    color: rgb(2, 13, 37);
+}
+
+#foundersContent{
+    display: none;
+}
+
+.insideCol{
+    margin-top: 1.5rem;
+    background-color: white;
+    width: 75%;
+}
+
+#mentorsContent{
+    display: none;
+}
+
+hr.style-quarter{
+    width: 25%;
+    border: 0;
+    height: 1px;
+    background-image: -o-linear-gradient(left, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 136, 0, 0)), color-stop(rgba(255, 136, 0, 0.75)), to(rgba(255, 136, 0, 0)));
+    background-image: linear-gradient(to right, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
+}
+
+.headings{
+    color: rgb(255, 136, 0);
+}
+
+.note{
+    color:white;
+    font-size: 1.75rem;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.by{
+    color: white;
+}
+
+.linksToSamePage{
+    -webkit-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+hr.style {
+    width: 90%;
+    border: 0;
+    height: 1px;
+    background-image: -o-linear-gradient(left, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 136, 0, 0)), color-stop(rgba(255, 136, 0, 0.75)), to(rgba(255, 136, 0, 0)));
+    background-image: linear-gradient(to right, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
+}
+hr.style-half {
+    width: 50%;
+    border: 0;
+    height: 1px;
+    background-image: -o-linear-gradient(left, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 136, 0, 0)), color-stop(rgba(255, 136, 0, 0.75)), to(rgba(255, 136, 0, 0)));
+    background-image: linear-gradient(to right, rgba(255, 136, 0, 0), rgba(255, 136, 0, 0.75), rgba(255, 136, 0, 0));
+}
+
+hr.pricingline {
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-image: -o-linear-gradient(left, rgba(238, 238, 238, 0), rgba(238, 238, 238, 0.75), rgba(238, 238, 238, 0));
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(238, 238, 238, 0)), color-stop(rgba(238, 238, 238, 0.75)), to(rgba(238, 238, 238, 0)));
+    background-image: linear-gradient(to right, rgba(238, 238, 238, 0), rgba(238, 238, 238, 0.75), rgba(238, 238, 238, 0));
+}
+
+.carousel-indicators li{
+    background-color: black;
+}
+
+.card-img-top{
+    -webkit-border-radius: 30%;
+            border-radius: 30%;
+    width:200px;
+    height:250px;
+}
+
+.name{
+    margin: 0 auto;
+    font-weight: 800;
+    font-size: 1.20rem;
+}
+.otherContent{
+    margin: 0 auto;
+    font-size: 1.25rem;
+}
+
+.mentorLinks{
+    font-size: 1.2rem;
+}
+
+.contact-us-section{
+   background-color: rgb(216, 216, 216);
+   /* width: 50%; */
+   -webkit-border-radius: 10px;
+           border-radius: 10px;
+}
+
+.contactLinks{
+    color: black;
+}
